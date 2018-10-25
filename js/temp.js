@@ -1,19 +1,3 @@
-'use strict';
-
-var _extends =
-  Object.assign ||
-  function(target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-    return target;
-  };
-
 function getTeam() {
   return [
     {
@@ -61,17 +45,11 @@ function getTeam() {
   ];
 }
 
-function Member(_ref) {
-  var name = _ref.name,
-    title = _ref.title,
-    linkedinURL = _ref.linkedinURL,
-    avatarURL = _ref.avatarURL;
-
-  return React.createElement(
-    'div',
-    {
-      className: 'card',
-      style: {
+function Member({ name, title, linkedinURL, avatarURL }) {
+  return (
+    <div
+      className="card"
+      style={{
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between',
@@ -79,68 +57,49 @@ function Member(_ref) {
         padding: '1em',
         width: '18rem',
         margin: '.5rem'
-      }
-    },
-    React.createElement('img', {
-      style: { borderRadius: '100%', width: 139, height: 139 },
-      src: avatarURL,
-      alt: name + "'s picture",
-      className: 'card-img-top shadow'
-    }),
-    React.createElement(
-      'div',
-      { className: 'card-body', style: { textAlign: 'center' } },
-      React.createElement('h5', { className: 'card-title' }, name),
-      React.createElement('h6', { className: 'card-subtitle' }, title),
-      React.createElement(
-        'a',
-        {
-          className: 'btn btn-default',
-          href: linkedinURL,
-          target: '_BLANK',
-          rel: 'noreferrer noopener'
-        },
-        'Contact'
-      )
-    )
+      }}>
+      <img
+        style={{ borderRadius: '100%', width: 139, height: 139 }}
+        src={avatarURL}
+        alt={`${name}'s picture`}
+        className="card-img-top shadow"
+      />
+      <div className="card-body" style={{ textAlign: 'center' }}>
+        <h5 className="card-title">{name}</h5>
+        <h6 className="card-subtitle">{title}</h6>
+        <a
+          className="btn btn-default"
+          href={linkedinURL}
+          target="_BLANK"
+          rel="noreferrer noopener">
+          Contact
+        </a>
+      </div>
+    </div>
   );
 }
 
 function Team(props) {
-  return React.createElement(
-    'div',
-    {
-      style: {
+  return (
+    <div
+      style={{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
         margin: '1em 0'
-      }
-    },
-    React.createElement(
-      'h2',
-      { style: { fontSize: '3em', margin: '1em 0' } },
-      'Team'
-    ),
-    React.createElement(
-      'div',
-      {
-        style: {
+      }}>
+      <h2 style={{ fontSize: '3em', margin: '1em 0' }}>Team</h2>
+      <div
+        style={{
           display: 'flex',
           flexWrap: 'wrap',
           padding: '0 1em'
-        }
-      },
-      getTeam().map(function(member) {
-        return React.createElement(
-          Member,
-          _extends({ key: member.name }, member)
-        );
-      })
-    )
+        }}>
+        {getTeam().map(member => (
+          <Member key={member.name} {...member} />
+        ))}
+      </div>
+    </div>
   );
 }
-
-const rootElement = document.getElementById('team');
-ReactDOM.render(React.createElement(Team), rootElement);
