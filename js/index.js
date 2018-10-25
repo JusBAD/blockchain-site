@@ -78,7 +78,8 @@ function Member(_ref) {
         alignItems: 'center',
         padding: '1em',
         width: '18rem',
-        margin: '.5rem'
+        margin: '.5rem',
+        height: '20rem'
       }
     },
     React.createElement('img', {
@@ -128,6 +129,8 @@ function Team(props) {
       {
         style: {
           display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
           flexWrap: 'wrap',
           padding: '0 1em'
         }
@@ -141,6 +144,5 @@ function Team(props) {
     )
   );
 }
-
 const rootElement = document.getElementById('team');
 ReactDOM.render(React.createElement(Team), rootElement);
