@@ -56,7 +56,8 @@ function Member({ name, title, linkedinURL, avatarURL }) {
         alignItems: 'center',
         padding: '1em',
         width: '18rem',
-        margin: '.5rem'
+        margin: '.5rem',
+        height: '20rem'
       }}>
       <img
         style={{ borderRadius: '100%', width: 139, height: 139 }}
@@ -93,6 +94,8 @@ function Team(props) {
       <div
         style={{
           display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
           flexWrap: 'wrap',
           padding: '0 1em'
         }}>
