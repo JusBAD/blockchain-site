@@ -129,7 +129,7 @@ function Team(props) {
     React.createElement(
       'h2',
       { style: { fontSize: '3em', margin: '1em 0' } },
-      'Team'
+      'The Team'
     ),
     React.createElement(
       'div',
