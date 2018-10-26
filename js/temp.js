@@ -13,6 +13,13 @@ function getTeam() {
       avatarURL: '../img/2018/mohammad_sadoghi.jpeg'
     },
     {
+      name: 'John Long',
+      title: 'Head Intructor',
+      linkedinURL:
+        'https://www.linkedin.com/in/jzl/?fbclid=IwAR2vdzuhHj5HsrOCW6MCxgSb2ew8JtFaS6wDV0yiKp9tgXL1wFq6MLpY5RE/',
+      avatarURL: '../img/2018/john_long.jpeg'
+    },
+    {
       name: 'Ana Mehta',
       title: 'Head of Marketing',
       linkedinURL: 'https://www.linkedin.com/in/ana-mehta-630a52121/',
