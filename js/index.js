@@ -118,12 +118,13 @@ function Team(props) {
   return React.createElement(
     'div',
     {
+      className: 'hero-background',
       style: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        margin: '1em 0'
+        padding: '1em 0'
       }
     },
     React.createElement(
