@@ -90,12 +90,13 @@ function Member({ name, title, linkedinURL, avatarURL }) {
 function Team(props) {
   return (
     <div
+      className="hero-background"
       style={{
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        margin: '1em 0'
+        padding: '1em 0'
       }}>
       <h2 style={{ fontSize: '3em', margin: '1em 0' }}>Team</h2>
       <div
