@@ -30,7 +30,7 @@ function getTeam() {
     },
     {
       name: 'John Long',
-      title: 'Head Intructor',
+      title: 'Head Instructor',
       linkedinURL:
         'https://www.linkedin.com/in/jzl/?fbclid=IwAR2vdzuhHj5HsrOCW6MCxgSb2ew8JtFaS6wDV0yiKp9tgXL1wFq6MLpY5RE/',
       avatarURL: '../img/2018/john_long.jpeg'
@@ -130,7 +130,7 @@ function Team(props) {
     React.createElement(
       'h2',
       { style: { fontSize: '3em', margin: '1em 0' } },
-      'Team'
+      'The Team'
     ),
     React.createElement(
       'div',
