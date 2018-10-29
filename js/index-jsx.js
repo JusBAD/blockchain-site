@@ -36,18 +36,6 @@ function getTeam() {
       title: 'Head of Operations Outreach',
       linkedinURL: 'https://www.linkedin.com/in/andreas-g-601262119/',
       avatarURL: '../img/2018/andreas_godderis.jpeg'
-    },
-    {
-      name: 'Tommy Saechao',
-      title: 'Outreach',
-      linkedinURL: 'https://www.linkedin.com/in/tommy-saechao/',
-      avatarURL: '../img/2018/tommy_saechao.jpeg'
-    },
-    {
-      name: 'Marcus Chan',
-      title: 'Outreach',
-      linkedinURL: 'https://www.linkedin.com/in/marcus-chan-7837a2116/',
-      avatarURL: '../img/2018/marcus_chan.jpeg'
     }
   ];
 }
