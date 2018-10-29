@@ -93,7 +93,9 @@ function Team(props) {
           justifyContent: 'center',
           alignItems: 'center',
           flexWrap: 'wrap',
-          padding: '0 1em'
+          padding: '0 1em',
+          maxWidth: '1100px',
+          width: '100%'
         }}>
         {getTeam().map(member => (
           <Member key={member.name} {...member} />
