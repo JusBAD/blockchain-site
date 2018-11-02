@@ -143,5 +143,10 @@ function Team(props) {
   );
 }
 
-const rootElement = document.getElementById('team');
-ReactDOM.render(React.createElement(Team), rootElement);
+// Dont delete below!
+
+const rootTeam = document.getElementById('team');
+ReactDOM.render(React.createElement(Team), rootTeam);
+
+const rootSignUp = document.getElementById('signup');
+ReactDOM.render(React.createElement(EmailForm), rootSignUp);
