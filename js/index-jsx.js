@@ -104,3 +104,41 @@ function Team(props) {
     </div>
   );
 }
+
+function EmailForm(props) {
+  return (
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: '50px 0',
+        backgroundColor: '#222',
+        color: 'white'
+      }}>
+      <h3 style={{ fontSize: '2.75em', margin: '1em 0' }}>Sign up today!</h3>
+      <form method="POST" action="https://formspree.io/ssamala@ucdavis.edu">
+        <div>
+          <div>
+            <label htmlFor="email-address">Email address: </label>
+            <input
+              required
+              type="email"
+              name="email"
+              className="form-control"
+              placeholder="Your email"
+              aria-describedby="email address"
+            />
+          </div>
+          <button
+            type="submit"
+            className="btn btn-default"
+            style={{ float: 'right', margin: '.5em' }}>
+            Sign up
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+}

@@ -143,6 +143,61 @@ function Team(props) {
   );
 }
 
+function EmailForm(props) {
+  return React.createElement(
+    'div',
+    {
+      style: {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: '50px 0',
+        backgroundColor: '#222',
+        color: 'white'
+      }
+    },
+    React.createElement(
+      'h3',
+      { style: { fontSize: '2.75em', margin: '1em 0' } },
+      'Sign up today!'
+    ),
+    React.createElement(
+      'form',
+      { method: 'POST', action: 'https://formspree.io/ssamala@ucdavis.edu' },
+      React.createElement(
+        'div',
+        null,
+        React.createElement(
+          'div',
+          null,
+          React.createElement(
+            'label',
+            { htmlFor: 'email-address' },
+            'Email address: '
+          ),
+          React.createElement('input', {
+            required: true,
+            type: 'email',
+            name: 'email',
+            className: 'form-control',
+            placeholder: 'Your email',
+            'aria-describedby': 'email address'
+          })
+        ),
+        React.createElement(
+          'button',
+          {
+            type: 'submit',
+            className: 'btn btn-default',
+            style: { float: 'right', margin: '.5em' }
+          },
+          'Sign up'
+        )
+      )
+    )
+  );
+}
 // Dont delete below!
 
 const rootTeam = document.getElementById('team');
