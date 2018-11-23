@@ -153,7 +153,6 @@ function EmailForm(props) {
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: 'transparent',
-        color: 'white',
         margin: '0 .5em'
       }
     },
