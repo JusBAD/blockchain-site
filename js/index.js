@@ -152,9 +152,9 @@ function EmailForm(props) {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '50px 0',
-        backgroundColor: '#222',
-        color: 'white'
+        backgroundColor: 'transparent',
+        color: 'white',
+        margin: '0 .5em'
       }
     },
     React.createElement(

@@ -113,9 +113,9 @@ function EmailForm(props) {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '50px 0',
-        backgroundColor: '#222',
-        color: 'white'
+        backgroundColor: 'transparent',
+        color: 'white',
+        margin: '0 .5em'
       }}>
       <h3 style={{ fontSize: '2.75em', margin: '1em 0' }}>Sign up today!</h3>
       <form method="POST" action="https://formspree.io/ssamala@ucdavis.edu">
