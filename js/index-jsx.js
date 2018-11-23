@@ -114,7 +114,6 @@ function EmailForm(props) {
         justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: 'transparent',
-        color: 'white',
         margin: '0 .5em'
       }}>
       <h3 style={{ fontSize: '2.75em', margin: '1em 0' }}>Sign up today!</h3>
