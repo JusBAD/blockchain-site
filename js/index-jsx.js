@@ -132,7 +132,7 @@ function EmailForm(props) {
           <button
             type="submit"
             className="btn btn-default"
-            style={{ float: 'right', margin: '.5em' }}>
+            style={{ width: '100%', margin: '.5em 0' }}>
             Sign up
           </button>
         </div>
