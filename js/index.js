@@ -157,11 +157,6 @@ function EmailForm(props) {
       }
     },
     React.createElement(
-      'h3',
-      { style: { fontSize: '2.75em', margin: '1em 0' } },
-      'Sign up today!'
-    ),
-    React.createElement(
       'form',
       { method: 'POST', action: 'https://formspree.io/ssamala@ucdavis.edu' },
       React.createElement(
