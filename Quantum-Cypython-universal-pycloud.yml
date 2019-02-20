@@ -1,0 +1,130 @@
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+
+google play blockchain template
+Repositories0
+Code15K
+Commits0
+Issues67
+Marketplace0
+Topics0
+Wikis122
+Users0
+Languages
+5,047 HTML
+2,151 Markdown
+2,148 CSV
+1,784 Text
+1,617 YAML
+927 JSON
+411 XML
+163 C++
+115 CSS
+64 JavaScript
+Advanced search 
+15,942 code results
+@ftrader
+ftrader/english – Clients.mdwn
+Showing the top eight matches Last indexed on Jul 4, 2018
+Markdown
+[[libbitcoin-explorer|Libbitcoin_Explorer]]|[Build It Yourself](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Build-BX)|Programmers |[[!template id=clbest Ephemeral, Multisig Optional]]|[[!template id=clbest Full w/local node]]|[[!template id=clbest BIP39]]|[[!template id=clbest Instant]]|[[!template id=clbest 3 MB]]|[[!template id=clgood May 2011]]|[[!template id=clbest Multi-wallet]]|[[!template id=clandroid]][[!template id=cllinux]][[!template id=clmac]][[!template id=clwin]]
+[[Bitcoin_Wallet]]|[Google Play](https://play.google.com/store/apps/details?id=de.schildbach.wallet)[BlackBerry World](https://appworld.blackberry.com/webstore/content/23952882/)|[[!template id=clgood End-users]]|[[!template id=clgood Isolated, on-device]]|Partial |Manual |[[!template id=clbest Instant]]|[[!template id=clgood 15 MB]]|[[!template id=clgood Mar 2011]]|on JB tablets |[[!template id=clandroid]][[ico-blackberry.png]]
+[[GreenAddress]]|[Web](https://greenaddress.it)[ChromeApp](https://chrome.google.com/webstore/detail/greenaddressit/dgbimgjoijjemhdamicmljbncacfndmp)[Google Play](https://play.google.com/store/apps/details?id=it.greenaddress.cordova&hl=en)|[[!template id=clbest Everyone]]|[[!template id=clgood Encrypted, on-device]]|[[!template id=clbad Remote]]|Memorized/Manual |[[!template id=clbest Instant]]|[[!template id=clbest None]]|Apr 2013 |[[!template id=clbest Yes]]|[[!template id=clandroid]][[!template id=cllinux]][[!template id=clmac]][[!template id=clwin]]
+@smjnab
+smjnab/Spelmakare – index.tsx
+Showing the top six matches Last indexed on Dec 20, 2018
+TypeScript
+        steemnews: "Blockchain Powered",
+        rps: "Rock Paper Scissors",
+        preactubats: "Preact Template",
+            name: "Google Play",
+            url: "https://play.google.com",
+            icon: "icon-google"
+        } as BadgeData,
+@hinesmr
+hinesmr/mica – linkadvert_template.html
+Showing the top three matches Last indexed on Jun 28, 2018
+HTML
+<div xmlns:t="http://twistedmatrix.com/ns/twisted.web.template/0.1" t:render="link">
+<tr>
+<td>
+<a href="https://itunes.apple.com/us/app/mica-learning/id915942138"><img src="/serve/images/ios.svg" height='40px'/></a>
+&#160;
+<a href='https://play.google.com/store/apps/details?id=com.hinespot.mica'><img src="/serve/images/google.png" height='40px'/></a>
+@alexz01
+alexz01/Word-Big-Data-Analysis – tweet_205.txt
+Showing the top four matches Last indexed on Jan 14
+Text
+#btc #bitcoin
+Google Bans Crypto Mining Browser Extensions #google #bitcoin #valuable #reality #ethereum #cryptocurrency #blockchain #altcoins #income #cryptomining #eth #btc #crypto #steemit #dashcoin #litecoin #coinbase #investing #stocks #money #finance #monero #travellife #exoticlife https://t.co/aXAbXqKTt8
+Bitcoin Lightning Network Sees First Android Mobile App Hit Google Play https://t.co/gcFDwILodv
+Hackers target ad networks to inject cryptocurrency mining scripts https://t.co/7eBcVEQWl9 via @ZDNet &amp; @zackwhittaker #CUJO #AI #cryptocurrency #hackers #network https://t.co/zRNUu9a4D7
+@Halveringstid
+Halveringstid/hacknarok-landing – index.html
+Showing the top two matches Last indexed on Jul 13, 2018
+HTML
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+              <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
+              <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+@fontius
+fontius/hexo-pacio – index.html
+Showing the top two matches Last indexed on Jul 12, 2018
+HTML
+    <meta name="application-name" content="Pacio">
+    <meta name="description" content="Pacio Blockchain based in St Lucia, Founders David Hartley, Keith Cleland, and Trevor Watters">
+    <meta name="keywords" content="Pacio,Blockchain,St Lucia,David Hartley,Keith Cleland,Trevor Watters,ICO,PIO">
+    <meta name="author" content="David Hartley">
+@GenesisCommunity
+GenesisCommunity/go-genesis – README.md
+Showing the top five matches Last indexed on Aug 15, 2018
+Markdown
+ - You'll be able to immediately upload your newly developed applications on Simvolio and Protypo directly to your mobile device running IOS or Android. You can do this using our application, which is soon to be available from Appstore and Google Play. Or you can upload your version after making some changes to our source codes.
+    <img src="https://i.imgur.com/DkvR7MZ.jpg">
+</p>
+Post your blockchain application on Google Play or Appstore. <br>
+@jchavannes
+jchavannes/jasonc – on-chain-identity-and-reputation.html
+Showing the top four matches Last indexed 5 days ago
+HTML
+        There are also apps like
+        <a href="https://play.google.com/store/apps/details?id=com.citizen.CitizenTicket1" target="_blank">
+            Citizen Ticket</a> and
+        <a href="https://play.google.com/store/apps/details?id=il.co.shiruba.iratedriver" target="_blank">
+@JusBAD
+JusBAD/blockchain-site – index.html
+Showing the top two matches Last indexed on Nov 26, 2018
+HTML
+    <meta property="og:image" content="/" />
+
+    <title>BLOCKCHAIN AT DAVIS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+            <div class="badges">
+              <!--
+                <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
+@CityOfZion
+CityOfZion/awesome-neo – README.md
+Showing the top four matches Last indexed on Nov 17, 2018
+Markdown
+- [How to build an ICO on NEO with the NEX ICO smart contract template](https://medium.com/proof-of-working/how-to-build-an-ico-on-neo-with-the-nex-ico-smart-contract-template-1beac1ff0afd)
+- [How to run a private network of the NEO blockchain](https://medium.com/proof-of-working/how-to-run-a-private-network-of-the-neo-blockchain-d83004557359)
+- [InWe Wallet](http://inwecrypto.com/en/download) - macOS, Windows, Linux, iOS and Android wallet
+- [NEO App](https://play.google.com/store/apps/details?id=neo.app) - Android wallet developed by NEO dev Peter Lin
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
